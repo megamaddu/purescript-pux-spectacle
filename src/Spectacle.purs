@@ -20,13 +20,15 @@ foreign import cite :: Component
 
 foreign import codePane :: Component
 
-foreign import fill :: Component
+foreign import layout :: Component
+
+foreign import layoutFill :: Component
+
+foreign import layoutFit :: Component
 
 foreign import heading :: Component
 
 foreign import image :: Component
-
-foreign import layout :: Component
 
 foreign import link :: Component
 

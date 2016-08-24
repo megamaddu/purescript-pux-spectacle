@@ -54,13 +54,15 @@ exports.codePane = Pux.fromReact(Spectacle.CodePane);
 
 exports.deck = Pux.fromReact(Spectacle.Deck);
 
-exports.fill = Pux.fromReact(Spectacle.Fill);
+exports.layout = Pux.fromReact(Spectacle.Layout);
+
+exports.layoutFit = Pux.fromReact(Spectacle.Fit);
+
+exports.layoutFill = Pux.fromReact(Spectacle.Fill);
 
 exports.heading = Pux.fromReact(Spectacle.Heading);
 
 exports.image = Pux.fromReact(Spectacle.Image);
-
-exports.layout = Pux.fromReact(Spectacle.Layout);
 
 exports.link = Pux.fromReact(Spectacle.Link);
 
