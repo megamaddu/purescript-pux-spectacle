@@ -1,6 +1,11 @@
 {
   "name": "purescript-pux-spectacle",
+  "version": "0.0.0",
   "license": "MIT",
+  "repository": {                                                                                                                                            
+    "type": "git",                                                                                                                                           
+    "url": "git://github.com/spicydonuts/purescript-pux-spectacle.git"                                                                                              
+  },
   "ignore": [
     "**/.*",
     "node_modules",
