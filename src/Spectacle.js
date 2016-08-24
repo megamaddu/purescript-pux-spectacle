@@ -72,4 +72,4 @@ exports.markdown = Pux.fromReact(Spectacle.Markdown);
 
 exports.slide = Pux.fromReact(Spectacle.Slide);
 
-exports.textS = Pux.fromReact(Spectacle.Text);
+exports.text = Pux.fromReact(Spectacle.Text);

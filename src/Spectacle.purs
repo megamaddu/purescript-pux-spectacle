@@ -36,4 +36,4 @@ foreign import list :: Component
 
 foreign import markdown :: Component
 
-foreign import textS :: Component
+foreign import text :: Component
