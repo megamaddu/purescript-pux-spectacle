@@ -1,5 +1,6 @@
 {
   "name": "purescript-pux-spectacle",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,6 +13,5 @@
   },
   "devDependencies": {
     "purescript-psci-support": "^1.0.0"
-  },
-  "version": "1.0.0"
+  }
 }
