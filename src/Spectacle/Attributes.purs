@@ -13,11 +13,14 @@ type Theme =
     { primary :: String
     , secondary  :: String
     , tertiary  :: String
-    , quartenary  :: String }
+    , quartenary  :: String
+    }
   , fonts ::
     { primary :: String
     , secondary  :: String
-    , tertiary  :: String } }
+    , tertiary  :: String
+    }
+  }
 
 theme :: forall a. Theme -> Attribute a
 theme = attr "theme" <<< createTheme
