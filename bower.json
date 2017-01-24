@@ -1,6 +1,6 @@
 {
   "name": "purescript-pux-spectacle",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,10 +13,10 @@
     "output"
   ],
   "dependencies": {
-    "purescript-console": "^1.0.0",
-    "purescript-pux": "^5.0.3"
+    "purescript-console": "^2.0.0",
+    "purescript-pux": "^7.0.0"
   },
   "devDependencies": {
-    "purescript-psci-support": "^1.0.0"
+    "purescript-psci-support": "^2.0.0"
   }
 }
