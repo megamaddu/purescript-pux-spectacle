@@ -1,8 +1,9 @@
 module Spectacle.Attributes where
 
 import Data.Foreign (Foreign)
-import Data.Time.Duration (unMilliseconds, Milliseconds)
-import Prelude (map, (<<<), (=<<), ($))
+import Data.Newtype (unwrap)
+import Data.Time.Duration (Milliseconds)
+import Prelude (map, (<<<))
 import Pux.Html (Attribute)
 import Pux.Html.Attributes (attr)
 
@@ -57,7 +58,7 @@ transition = attr "transition" <<< map toString
     toString Spin = "spin"
 
 transitionDuration :: forall a. Milliseconds -> Attribute a
-transitionDuration = attr "transitionDuration" <<< unMilliseconds
+transitionDuration = attr "transitionDuration" <<< unwrap
 
 showControls :: forall a. Attribute a
 showControls = attr "controls" true
